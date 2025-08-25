@@ -35,7 +35,7 @@ const Footer = () => (
         <div className="col" style={{ flex: '1 1 220px', minWidth: 220 }}>
           <h3 style={{ fontWeight: 800, fontSize: 28, marginBottom: 12, color: '#fbbf24', letterSpacing: 1 }}>wolverine house</h3>
           <p style={{ color: '#cbd5e1', fontSize: 14, marginBottom: 0 }}>- Your gateway to smarter shopping and a better life.
-<br /> - Wheres great deals meet everyday living.
+<br /> - Where great deals meet everyday living.
 <br /> - Buy better. Live brighter.
 <br /> - Smart choices, seamless shopping, simple life.
 <br /> - Redefining how you shop—and how you live.</p>
