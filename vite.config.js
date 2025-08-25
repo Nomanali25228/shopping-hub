@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/': {
+      '/api': {
         target: 'http://backend-shopping-hub-production.up.railway.app',
         changeOrigin: true,
         secure: false
