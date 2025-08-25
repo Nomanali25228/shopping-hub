@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://backend-shopping-hub-production.up.railway.app',
+        target: 'https://mino-ki-o161.vercel.app',
         changeOrigin: true,
         secure: false
       }

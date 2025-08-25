@@ -4,7 +4,7 @@ import { createOrder } from '../services/orderService';
 import { getSellerProductsForAdmin } from '../services/sellerProductService';
 import axios from 'axios';
 import { IoMdClose } from "react-icons/io";
-const API_URL = import.meta.env.VITE_API_URL || 'http://backend-shopping-hub-production.up.railway.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mino-ki-o161.vercel.app';
 
 const AdminCreateOrder = () => {
   const currentUser = JSON.parse(localStorage.getItem('alfauser'));

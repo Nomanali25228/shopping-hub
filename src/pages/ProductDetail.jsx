@@ -142,7 +142,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getProductById } from '../services/productController';
 
 // Use same API logic as LandingPage for products
-const API_URL = import.meta.env.VITE_API_URL || 'http://backend-shopping-hub-production.up.railway.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mino-ki-o161.vercel.app';
 
 const ProductDetail = () => {
   const { id } = useParams();

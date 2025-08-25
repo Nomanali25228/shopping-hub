@@ -114,7 +114,7 @@ function LandingPage() {
     <Footer />;
     const API_URL =
       import.meta.env.VITE_API_URL ||
-      "http://backend-shopping-hub-production.up.railway.app";
+      "https://mino-ki-o161.vercel.app";
     fetch(`${API_URL}/products`, {
       method: "GET",
       headers: {

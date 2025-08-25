@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://backend-shopping-hub-production.up.railway.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mino-ki-o161.vercel.app';
 
 // Helper function to get auth headers
 const getAuthHeaders = () => {
@@ -14,7 +14,7 @@ const getAuthHeaders = () => {
 export const getAvailableProducts = async () => {
   try {
     const headers = getAuthHeaders();
-    const res = await fetch(`http://backend-shopping-hub-production.up.railway.app/seller-products/available`, {
+    const res = await fetch(`https://mino-ki-o161.vercel.app/seller-products/available`, {
       method: 'GET',
       headers,
       mode: 'cors'

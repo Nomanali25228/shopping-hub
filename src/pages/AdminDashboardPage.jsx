@@ -11,7 +11,7 @@ import { GrMoney } from "react-icons/gr";
 //   CategoryScale,
 //   LinearScale,
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://backend-shopping-hub-production.up.railway.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mino-ki-o161.vercel.app';
 const AdminDashboardPage = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);

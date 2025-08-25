@@ -4,7 +4,7 @@ import { FiX } from 'react-icons/fi';
 import { updateOrder } from '../services/orderService';
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://backend-shopping-hub-production.up.railway.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mino-ki-o161.vercel.app';
 
 const OrderEditModal = ({ order, onClose, onSave }) => {
   const currentUser = JSON.parse(localStorage.getItem('alfauser'));

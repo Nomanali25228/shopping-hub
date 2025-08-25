@@ -79,7 +79,7 @@ const SellerShop = () => {
   const handleSave = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://backend-shopping-hub-production.up.railway.app'}/users/seller/${currentUser._id}`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL || 'https://mino-ki-o161.vercel.app'}/users/seller/${currentUser._id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

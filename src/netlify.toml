@@ -4,7 +4,7 @@
 
 [build.environment]
 
-VITE_API_URL=http://backend-shopping-hub-production.up.railway.app
+VITE_API_URL=https://mino-ki-o161.vercel.app
 
 [[redirects]]
   from = "/*"
