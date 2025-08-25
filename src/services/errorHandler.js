@@ -32,7 +32,7 @@ export const handleApiError = (error) => {
 // Check server health
 export const checkServerHealth = async () => {
   try {
-    const response = await fetch('https://secure-celebration-production.up.railway.app/health');
+    const response = await fetch('http://backend-shopping-hub-production.up.railway.app/health');
     const health = await response.json();
     return health;
   } catch (error) {

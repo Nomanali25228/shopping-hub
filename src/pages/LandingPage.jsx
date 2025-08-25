@@ -114,7 +114,7 @@ function LandingPage() {
     <Footer />;
     const API_URL =
       import.meta.env.VITE_API_URL ||
-      "https://secure-celebration-production.up.railway.app/api";
+      "http://backend-shopping-hub-production.up.railway.app";
     fetch(`${API_URL}/products`, {
       method: "GET",
       headers: {

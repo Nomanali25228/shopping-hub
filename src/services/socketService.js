@@ -20,8 +20,8 @@ export const initSocket = () => {
   }
   
   // Make sure we're using the correct URL - strip /api if present
-  let API_URL = import.meta.env.VITE_API_URL || 'https://secure-celebration-production.up.railway.app/';
-  if (API_URL.endsWith('/api')) {
+  let API_URL = import.meta.env.VITE_API_URL || 'http://backend-shopping-hub-production.up.railway.app';
+  if (API_URL.endsWith('/')) {
     API_URL = API_URL.substring(0, API_URL.length - 4);
   }
   

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://secure-celebration-production.up.railway.app/api';
+const API_URL = import.meta.env.VITE_API_URL || 'http://backend-shopping-hub-production.up.railway.app';
 
 // Signup function for new users (seller)
 // Expects: name, email, password, phone, shopName, identity (base64 image)

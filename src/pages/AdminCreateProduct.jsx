@@ -9,7 +9,7 @@ function AdminCreateProduct() {
     image: '',
     discountedPrice: '',
     quantity: '',
-    category: 'Newest',
+    category: '',
   });
   const [imageFile, setImageFile] = useState(null);
   const [imageBase64, setImageBase64] = useState('');

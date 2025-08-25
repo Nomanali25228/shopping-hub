@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'https://secure-celebration-production.up.railway.app/api';
+const API_URL = import.meta.env.VITE_API_URL || 'http://backend-shopping-hub-production.up.railway.app';
 // Get a single product by ID
 export const getProductById = async (id) => {
   try {
@@ -10,7 +10,7 @@ export const getProductById = async (id) => {
     if (user?.token) {
       headers['Authorization'] = `Bearer ${user.token}`;
     }
-    const res = await fetch(`${API_URL}/products/${id}`, {
+    const res = await fetch(`http://backend-shopping-hub-production.up.railway.app/products/${id}`, {
       method: 'GET',
       headers,
       mode: 'cors'
@@ -40,7 +40,7 @@ export const getProducts = async () => {
     if (user?.token) {
       headers['Authorization'] = `Bearer ${user.token}`;
     }
-    const res = await fetch(`${API_URL}/products`, { 
+    const res = await fetch(`http://backend-shopping-hub-production.up.railway.app/products/`, {
       method: 'GET',
       headers,
       mode: 'cors' // Explicitly request CORS mode
