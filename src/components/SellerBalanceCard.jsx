@@ -10,6 +10,7 @@ const SellerBalanceCard = ({ stats, acceptedProfit }) => {
   const [loading, setLoading] = useState(true);
   // Defensive: always use a fallback object for stats
   const safeStats = stats || {};
+  // noman
  
   useEffect(() => {
     const fetchBalance = async () => {
