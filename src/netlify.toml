@@ -3,7 +3,8 @@
   publish = "dist" # or your actual build output directory (could be "build" for React)
 
 [build.environment]
-  VITE_API_URL = "https://secure-celebration-production.up.railway.app/"
+
+VITE_API_URL="http://backend-shopping-hub-production.up.railway.app/"
 
 [[redirects]]
   from = "/*"
