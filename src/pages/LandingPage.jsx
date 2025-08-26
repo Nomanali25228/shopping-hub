@@ -175,7 +175,7 @@ function LandingPage() {
         <div className="logo">
           <img src={Logo} alt="E-Commerce Logo" />
          <h2 style={{ margin: 0, fontSize: "20px", fontWeight: "bold" }}>
-      Wolverine House
+      Shopping Hub
     </h2>
         </div>
         {token ? (
