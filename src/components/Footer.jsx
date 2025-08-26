@@ -62,7 +62,7 @@ const Footer = () => (
         </div>
       </div>
       <div style={{ borderTop: '1px solid #475569', marginTop: 32, padding: '16px 0', textAlign: 'center', color: '#cbd5e1', fontSize: 15 }}>
-        &copy; 2015 wolverinehouse. All rights reserved.
+        &copy; 2015 Shopping Hub. All rights reserved.
       </div>
     </div>
   </footer>
