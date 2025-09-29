@@ -33,7 +33,7 @@ const Footer = () => (
     <div className="container" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 16px', position: 'relative', zIndex: 1 }}>
       <div className="row" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: 32 }}>
         <div className="col" style={{ flex: '1 1 220px', minWidth: 220 }}>
-          <h3 style={{ fontWeight: 800, fontSize: 28, marginBottom: 12, color: '#fbbf24', letterSpacing: 1 }}>Delight Sphere</h3>
+          <h3 style={{ fontWeight: 800, fontSize: 28, marginBottom: 12, color: '#fbbf24', letterSpacing: 1 }}>Shopping.com</h3>
           <p style={{ color: '#cbd5e1', fontSize: 14, marginBottom: 0 }}>- Your gateway to smarter shopping and a better life.
 <br /> - Where great deals meet everyday living.
 <br /> - Buy better. Live brighter.
@@ -62,7 +62,7 @@ const Footer = () => (
         </div>
       </div>
       <div style={{ borderTop: '1px solid #475569', marginTop: 32, padding: '16px 0', textAlign: 'center', color: '#cbd5e1', fontSize: 15 }}>
-        &copy; 2015 Delight Sphere. All rights reserved.
+        &copy; 2015 Shopping.com. All rights reserved.
       </div>
     </div>
   </footer>
